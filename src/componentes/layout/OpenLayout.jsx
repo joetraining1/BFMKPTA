@@ -7,7 +7,7 @@ const OpenLayout = () => {
   return (
     <React.Fragment>
       <Navbar />
-      <Outlet />
+        <Outlet />
       <Footer />
     </React.Fragment>
   );
