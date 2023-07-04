@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link'
 
 const Navbar = () => {
   return (
@@ -14,7 +15,9 @@ const Navbar = () => {
         justifyContent: 'center',
         alignItems: 'center'
       }}>
-      Navbar
+      <HashLink to='/#home-about'>About</HashLink>
+      <HashLink to='/#home-faq'>FAQs</HashLink>
+      <HashLink to='/#home-steps'>Guide</HashLink>
       </div>
     </div>
   )

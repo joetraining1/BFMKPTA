@@ -1,11 +1,19 @@
 import React from 'react'
+import Hero from './Hero'
+import About from './About'
+import FAQs from './FAQs'
+import Procedure from './Procedure'
 
 const Home = () => {
   return (
     <div style={{
-        fontWeight: '600'
+      width: '100%',
+      height: 'fit-content',
     }}>
-      CV. Karya Abadi
+      <Hero />
+      <About />
+      <FAQs />
+      <Procedure />
     </div>
   )
 }
